@@ -104,7 +104,7 @@ You are finally done with creating your binary word representations?! Start pyth
 
 To play around you might as well alter the text file test_set by adding new lines with a word and a tag. Then run
     
-    python path/to/your/binary_word_repr path/to/test_set
+    python similarities.py --model /path/to/your/binary_word_repr --test /path/to/your/test_file
 
 What does this actually mean? It means you can compare nouns for their similarity to the person, location and miscellanious tags to to which the might refer.
 
